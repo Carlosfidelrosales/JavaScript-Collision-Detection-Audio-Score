@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shooting Game</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id = "collisionCanvas"></canvas>
+
+    <canvas id = "canvas1">
+        <img id = "bg" alt = "" src = "images/layer1.png">
+        <img id = "asset1" alt = "" src = "images/layer2.png">
+        <img id = "asset2" alt = "" src = "images/layer3.png">
+        <img id = "asset3" alt = "" src = "images/layer4.png">
+        <img id = "asset4" alt = "" src = "images/layer5.png"> 
+        <img id = "asset5" alt = "" src = "images/layer6.png">
+    </canvas>
+
+    <div id = "adjustmentSpeed">
+        <p>Adjustment Speed: <span id = "speedParallax"></span></p>
+        <input type = "range" min = "0" max = "20" value = "5" class = "reach" id = "reach">
+    </div>
+
+    <script src = "script.js"></script>
+</body>
+</html>
